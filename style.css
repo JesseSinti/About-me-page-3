@@ -1,28 +1,42 @@
-h1 {
+.heading {
     color: aqua;
     font-size: 18pt;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-p {
+#About_Me_Page {
+    font-size: 22pt;
+    color: aqua
+}
+.lines {
     color:aqua;
-    font-size: 12pt;
+    font-size: 14pt;
     font-family:'Times New Roman', Times, serif
 }
 .highlight {
   background-color: yellow;
   margin: 10px;
   padding: 10px;
+  color: black
 }
 .mainhead {
     font-size: 20pt;
     color: red;
 }
 #cool {
-    border: 10%
+   width: 400px;
+   height:200px;
+}
+#running {
+    width: 400px;
+   height:200px;
+}
+#meal {
+   width: 400px;
+   height:200px;
 }
 #Navigationhud ul {
     display: flex;
-    background-color: black;
+    background-color: forestgreen;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -35,7 +49,7 @@ Navigationhud li {
     color: white;
 }
 .all {
-    background-color: black
+    background-color: forestgreen
 }
 #hobbies {
     color: aqua
@@ -43,7 +57,12 @@ Navigationhud li {
 .data {
     color:aqua
 }
-
+.column {
+    font-size: 16pt;
+}
+.info {
+    font-size: 14pt;
+}
 @media (max-width: 600px) {
     h1 {
     color: aqua;
